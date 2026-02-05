@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  jhelm:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2026-02-05T09:34:02.750445056-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 9e01da5aaf4cd5ac28d6fd4173cd84b775ab8189ab20872f3c81e35242ae9754
+    name: jhelm
+    type: application
+    urls:
+    - charts/jhelm-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-02-05T09:34:02.749880011-05:00"
