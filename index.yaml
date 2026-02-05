@@ -3,7 +3,7 @@ entries:
   jhelm:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-02-05T13:52:11.249400494-05:00"
+    created: "2026-02-05T14:14:38.215122762-05:00"
     description: A Helm chart for Kubernetes
     digest: 01d7db978fc07778bd4d076d9abba2247acbf9937c57d78ff84748e3691fd7e1
     name: jhelm
@@ -13,7 +13,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-02-05T13:52:11.248330431-05:00"
+    created: "2026-02-05T14:14:38.213863184-05:00"
     description: A Helm chart for Kubernetes
     digest: 9e01da5aaf4cd5ac28d6fd4173cd84b775ab8189ab20872f3c81e35242ae9754
     name: jhelm
@@ -21,4 +21,4 @@ entries:
     urls:
     - charts/jhelm-0.1.0.tgz
     version: 0.1.0
-generated: "2026-02-05T13:52:11.247008583-05:00"
+generated: "2026-02-05T14:14:38.212157079-05:00"
