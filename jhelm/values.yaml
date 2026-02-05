@@ -125,11 +125,13 @@ resources: {}
 
 healthcheck:
   readlinessProbe:
-    path: /readliness
-    port: http
+    httpGet:
+      path: /readliness
+      port: http
   livenessProbe:
-    path: /liveness
-    port: http
+    httpGet:
+      path: /liveness
+      port: http
 # This is to setup the liveness and readiness probes more information can be found here: https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/
 livenessProbe:
   httpGet:
